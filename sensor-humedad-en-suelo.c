@@ -17,7 +17,7 @@ void loop() {
   Serial.print(msg);
   Serial.println(humedad);
 
-  if (humedad <= 500) {
+  if (humedad <= 400) {
 
     digitalWrite(ledPin, HIGH);
   }
